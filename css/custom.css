@@ -1,0 +1,107 @@
+/* All custom css */
+  div {
+    border: 1px solid #000;
+  }
+
+  .mobile-container {
+    height: 100vh;
+    border: pink 6px solid;
+  }
+
+  .mobile-nav {
+    background-color: grey;
+    height: 50px;
+  }
+
+  .burger-menu,
+  .logo,
+  .search {
+    height: 100%;
+    display: inline-block;
+    width: 20.2%;
+    /* border: 2px solid black; */
+  }
+
+  .logo {
+    width: 57.5%;
+  }
+
+  .search {
+    width: 20.75%;
+  }
+
+  .daily-section {
+    background-color: teal;
+    height: 120px;
+    height: 30vh;
+  }
+
+  .current-city {
+    text-transform: uppercase;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    padding-left: 10px;
+  }
+
+  .weather-image,
+  .weather-info {
+    height: 80%;
+    float: left;
+    width: 49.4%;
+    border: none;
+  }
+
+  .map-section {
+    background-color: green;
+    height: 30vh;
+    margin: 8px;
+    background-color: rgb(78, 133, 230);
+    position: relative;
+  }
+
+  .map {
+    Height:78%;
+    background-color: rgb(161, 162, 255);
+  }
+
+  .map-title {
+    height: 50px;
+    Width: 65%;
+    background-color: rgb(46, 38, 135);
+    bottom:0;
+    left:0;
+}
+
+  .map-title,
+  .expand {
+    position: absolute;
+    background-color: #32a261;
+    height: 22%;
+    float: left;
+    width: 80%;
+  }
+
+  .expand {
+    width: 19.8%;
+    bottom:0;
+    right:0;
+  }
+
+.favourite-section {
+
+    background-color: blue;
+    height: 24vh;
+  }
+
+  .favourite-header {
+    background-color: rgb(76, 233, 185);
+    height:22%;
+  }
+
+
+
+
+  .footer-section {
+    background-color: yellow;
+    height: 120px;
+  }
