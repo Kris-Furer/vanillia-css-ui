@@ -45,11 +45,12 @@ div {
 }
 
 .daily-section {
-background-color:#213564;
+  background-color:#213564;
   height: 120px;
   height: 30vh;
-  position: relative;
-  color: rgb(245, 237, 234)
+  /* position: relative; */
+  color: rgb(245, 237, 234);
+
 }
 
 .current-city {
@@ -68,11 +69,15 @@ background-color:#213564;
   border: none;
   padding-top: 10%;
   padding-left: 10%;
-  padding-right: 10%
+  padding-right: 10%;
+  position: relative;
+
 }
+
 
 .weather-image {
   width:40%;
+
 }
 
 .weather-info {
@@ -82,6 +87,11 @@ background-color:#213564;
 .fa-sun {
   font-size: 100px;
   color: rgb(254, 195, 46);
+  position: absolute;
+}
+
+.fa-star {
+  font-size: 30px;
 }
 
 .temp {
@@ -103,8 +113,16 @@ background-color:#213564;
 }
 
 .map {
-  Height: 78%;
-  background-color: rgb(161, 162, 255);}
+  height:30vh;
+  background-color: rgb(161, 162, 255);
+
+}
+
+iframe {
+  height:100%;
+  width:100%;
+}
+
 
 .map-title {
   height: 50px;
@@ -138,7 +156,52 @@ background-color:#213564;
   height: 22%;
 }
 
+.favourite-h4 {
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left: 10px;
+
+}
+
 .footer-section {
   background-color: yellow;
   height: 120px;
+}
+
+
+/* Media Queries-------------------------------------------------------------
+/* Extra small devices (phones, 600px and down) */
+/* This applies css to mobile phones */
+@media only screen and (max-width: 600px) {
+  .daily-section {
+    background-color:red;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .daily-section {
+    background-color:pink;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .daily-section {
+    background-color:teal;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+.mobile-nav {
+  height:100px;
+}
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .daily-section {
+    background-color:rgb(79, 57, 213);
 }
